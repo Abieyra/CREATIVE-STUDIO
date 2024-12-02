@@ -16,29 +16,7 @@ const Contact = () => {
         <h2 className="text-2xl font-bold mb-2 text-indigo-600">(PHONE NUMBER)</h2>
         <h3 className="text-xl font-semibold text-pink-600">ABEERAH: +92 *************</h3>
       </section>
-      <ul className="flex justify-center space-x-4 mt-8">
-        <li>
-          <Link href="/">
-             className= &quot;text-blue-500 hover:text-blue-700 hover:underline transition duration-300 ease-in-out border-2 border-blue-500 rounded-lg p-2 hover:bg-blue-100 &quot;
-              GO TO Home PAGE
-          
-          </Link>
-        </li>
-        <li>
-          <Link href="/about">
-             className = &quot;text-blue-500 hover:text-blue-700 hover:underline transition duration-300 ease-in-out border-2 border-blue-500 rounded-lg p-2 hover:bg-blue-100 &quot;
-              GO TO ABOUT PAGE
-           
-          </Link>
-        </li>
-        <li>
-          <Link href="/services">
-            className = &quot;text-blue-500 hover:text-blue-700 hover:underline transition duration-300 ease-in-out border-2 border-blue-500 rounded-lg p-2 hover:bg-blue-100 &quot;
-              GO TO SERVICE PAGE
-         
-          </Link>
-        </li>
-      </ul>
+    
     </div>
   );
 };
