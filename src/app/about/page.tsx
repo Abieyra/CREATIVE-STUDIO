@@ -21,29 +21,8 @@ const AboutPage = () => {
           Our mission is to provide exceptional creative services that exceed your expectations. We are committed to delivering high-quality work, personalized service, and innovative solutions that help you achieve your goals. At My Creative Studio, your vision is our inspiration. We look forward to working with you and bringing your ideas to life!
         </p>
       </section>
-      <ul className="flex justify-center space-x-4 mt-8">
-        <li>
-          <Link href="/">
-             className = &quot;text-blue-500 hover:text-blue-700 hover:underline transition duration-300 ease-in-out border-2 border-blue-500 rounded-lg p-2 hover:bg-blue-100&quot;
-              GO TO Home PAGE
-          
-          </Link>
-        </li>
-        <li>
-          <Link href="/contact">
-             className = &quot;text-blue-500 hover:text-blue-700 hover:underline transition duration-300 ease-in-out border-2 border-blue-500 rounded-lg p-2 hover:bg-blue-100 &quot;
-              GO TO Contact PAGE
-           
-          </Link>
-        </li>
-        <li>
-          <Link href="/services">
-             className =  &quot;text-blue-500 hover:text-blue-700 hover:underline transition duration-300 ease-in-out border-2 border-blue-500 rounded-lg p-2 hover:bg-blue-100 &quot;
-              GO TO SERVICE PAGE
-           
-          </Link>
-        </li>
-      </ul>
+
+      
     </div>
   );
 };
